@@ -41,9 +41,9 @@ echo "${NOCOLOR}"
 
 echo "${MAGENTA}Downloading dotfiles...${NOCOLOR}"
 echo ""
-echo "- ${GREEN}Cloning felipemrodrigues/dotfiles.git...${NOCOLOR}"
+echo "- ${GREEN}Cloning michelribeiro/dotfiles.git...${NOCOLOR}"
 if [ ! -d "$DOTFILESDIR" ]; then
-    git clone git@github.com:felipemrodrigues/.dotfiles.git "$DOTFILESDIR"
+    git clone git@github.com:michelribeiro/.dotfiles.git "$DOTFILESDIR"
 else
     cd "$DOTFILESDIR" && git pull && cd ~
 fi
