@@ -29,7 +29,6 @@ if [[ "$(type -P brew)" ]]; then
     brew install git node
 fi
 echo ""
-
 echo ""
 echo "${GREEN}Hey!${NOCOLOR}"
 
